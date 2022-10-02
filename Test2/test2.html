@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+        border: 2px solid black ;
+      }
+   
+      .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.title {
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Employee Details</h2>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="SAM" style="width:100%">
+      <div class="container">
+        <h2>SAM</h2>
+        <p class="title">Architect-<a href="https://www.google.com/">Google</a></p>
+        
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="MICHAEL" style="width:100%">
+      <div class="container">
+        <h2>MICHAEL</h2>
+        <p class="title">Software Developer-<a href="https://www.amazon.in/">Amazon</a></p>
+       
+      </div>
+    </div>
+  </div>
+  
+ 
+</body>
+</html>
